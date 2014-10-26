@@ -1,9 +1,8 @@
 GIT
-  remote: git://github.com/cantino/twitter-stream.git
-  revision: 1c60a1007c50476f23374a8aea796769a088ffe0
-  branch: master
+  remote: https://github.com/daleki/twitter-stream
+  revision: e62360fc8abfa4d02f0e3632aa30be52dbf49294
   specs:
-    cantino-twitter-stream (0.1.15)
+    twitter-stream (0.1.15)
       eventmachine (>= 0.12.8)
       http_parser.rb (~> 0.6.0)
       simple_oauth (~> 0.2.0)
@@ -413,7 +412,6 @@ DEPENDENCIES
   binding_of_caller
   bootstrap-kaminari-views (~> 0.0.3)
   bundler (>= 1.5.0)
-  cantino-twitter-stream!
   coffee-rails (~> 4.0.0)
   coveralls
   daemons (~> 1.1.9)
@@ -478,6 +476,7 @@ DEPENDENCIES
   tumblr_client
   twilio-ruby (~> 3.11.5)
   twitter (~> 5.8.0)
+  twitter-stream!
   typhoeus (~> 0.6.3)
   tzinfo (>= 1.2.0)
   tzinfo-data
